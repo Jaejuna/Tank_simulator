@@ -1,7 +1,8 @@
 import requests
 import json 
+import random
 
-key = ' '       #서버 통신을 위한 비밀키
+key = 'b5d5bd555a1501b7324a020b229f7acdbf52afdea9bc2d5f96a74cf6d2e94780'       #서버 통신을 위한 비밀키
 statusParam = {
     "key" : key,
     "playerName" : "P1"
