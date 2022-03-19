@@ -10,27 +10,19 @@ name = 'pia'
 ##status requests for to get agent info
 status = requests.get('http://20.196.214.79:5050/game/game/view?key={key}&playername={name}')
 json_object = json.loads(status.content) 
-agents = json_object["data"]["message"]["agent_info"]["agent"] 
+agents = json_object["responses"]["data"]["message"]["agent_info"]["agent"] 
 
 ##view requests for identification
-# 0 = none
-# 1 = agent
-# 2 = explosive
-# 3 = obstacle
-# 4 = projectile
+# 0 = none, 1 = agent, 2 = explosive, 3 = obstacle, 4 = projectile
 view = requests.get('http://20.196.214.79:5050/game/view?key={key}&playername={name}') 
 json_object = json.loads(view.content) 
 agent_view = json_object["data"]["message"]["view_info"]["view"] 
 
 ## uid
-id = agent_info[uid]
-
+id = agentInfo[uid]
 ##move direction 
-# 0 = forward
-# 1 = right
-# 2 = backward
-# 3 = left
-type = view_info[type]
+# 0 = forward, 1 = right, 2 = backward, 3 = left
+type = viewInfo[type]
 #random direction except forward
 random_directoin = random.randrange(1,3)
 
