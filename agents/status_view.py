@@ -9,7 +9,7 @@ name = 'pia'
 ### uid ###
 id = '111113'
 
-stat = requests.get(f'http://20.196.214.79:5050/game/status?key={api}&playername={name}')
+stat = requests.get('http://20.196.214.79:5050/game/status?key={api}&playername={name}')
 print("statusRequest:", stat.content)
 print("status :", stat.status_code)
 

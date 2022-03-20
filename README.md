@@ -8,4 +8,4 @@ Korean tank AI simulator challenge from KIDET (The Korean Institue of Defense Te
 3/15 : working on move and rotate algorithm <br>
 3/16 : improved move and rotate algorithm, have to work on ai model <br>
 3/17 : getting chess engine algorithm ideas from "Deep Purple - k9on" and "Implementing A Deep Learning Chess Engine From Scratch - Victor Sim" <br>
-3/19 : working with al algo & api 😠 <br>
+3/19 : working on ai algo & api 😠 <br>
