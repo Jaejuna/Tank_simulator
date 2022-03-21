@@ -53,5 +53,5 @@ def move():
 
 ##### have to make an ai model
 ## https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
-## https://morioh.com/p/02b53b76d48a
 ## https://towardsdatascience.com/creating-a-chess-algorithm-using-deep-learning-and-monte-carlo-methods-d7dabd275e63
+## https://stackabuse.com/minimax-and-alpha-beta-pruning-in-python/
