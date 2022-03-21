@@ -55,3 +55,5 @@ def move():
 ## https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
 ## https://towardsdatascience.com/creating-a-chess-algorithm-using-deep-learning-and-monte-carlo-methods-d7dabd275e63
 ## https://stackabuse.com/minimax-and-alpha-beta-pruning-in-python/
+## https://github.com/Th3Un1qu3M4n/AI-Chess-Game
+## https://github.com/supraano/chess_engine/blob/main/AiMoveFinder.py
