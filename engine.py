@@ -52,4 +52,3 @@ def move():
   view()
 
 ##### have to make an ai model
-
